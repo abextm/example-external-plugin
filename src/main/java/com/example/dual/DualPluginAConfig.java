@@ -11,7 +11,7 @@ public interface DualPluginAConfig extends Config
 	@ConfigItem(
 		keyName = "greeting",
 		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		description = "I don't know why you say goodbye, I say"
 	)
 	default String greeting()
 	{
